@@ -17,7 +17,7 @@ pipeline {
            steps {
              
                 sh 'ls -la'             
-		sh 'pwd && ls'
+		sh 'pwd && whoami'
           }
         }
         
