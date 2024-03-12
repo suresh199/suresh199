@@ -17,6 +17,7 @@ pipeline {
            steps {
              
                 sh 'ls -la'             
+		sh 'pwd'
           }
         }
         
